@@ -1044,7 +1044,7 @@ shared_focus = {
 	y = 6
 	completion_reward = {
 		country_event = {
-			id = bdrlabs.0
+			id = bdr_labs_events.0
 		}
 	}
 }

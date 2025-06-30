@@ -1,0 +1,45 @@
+add_namespace = bdr_labs_events
+
+country_event = {
+	id = bdr_labs_events.0
+	title = bdr_labs_events.0.t
+	desc = bdr_labs_events.0.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = bdr_labs_events.0.a
+		set_country_flag = super_lab
+	}
+}
+
+country_event = {
+	id = bdr_labs_events.1
+	title = bdr_labs_events.1.t
+	desc = bdr_labs_events.1.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bdr_labs_events.1.a
+		add_stability = 5
+		add_political_power = 25
+		add_ideas = BGD_R_Shirakami_idea
+	}
+}
+
+country_event = {
+	id = bdr_labs_events.2
+	title = bdr_labs_events.2.t
+	desc = bdr_labs_events.2.d
+	picture = GFX_popipa_doublerainbow
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = bdr_labs_events.2.a
+		add_stability = 5
+		add_political_power = 25
+		add_manpower = 1
+	}
+}
