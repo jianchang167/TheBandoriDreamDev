@@ -1,0 +1,1656 @@
+focus_tree = {
+	id = PRC_focus_tree_black_march
+
+	# 核心：黑征的引导与人民的福祉
+	focus = {
+		id = PRC_black_march_awakening
+		icon = GFX_guoce_zhanwei
+		cost = 3
+		x = 8
+		y = 0
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_mandate_of_collective_happiness
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_black_march_awakening
+		}
+		cost = 3
+		x = 8
+		y = 1
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_eternal_flame_of_aspiration
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_mandate_of_collective_happiness
+		}
+		cost = 3
+		x = 8
+		y = 2
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_echoes_of_past_glory
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_eternal_flame_of_aspiration
+		}
+		cost = 3
+		x = 8
+		y = 3
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_guardians_of_peoples_dream
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_echoes_of_past_glory
+		}
+		cost = 3
+		x = 8
+		y = 4
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_unwavering_path_to_utopia
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_guardians_of_peoples_dream
+		}
+		cost = 3
+		x = 8
+		y = 5
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_optimizing_the_grand_narrative
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_unwavering_path_to_utopia
+		}
+		cost = 3
+		x = 8
+		y = 6
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_lessons_from_countless_cycles
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_optimizing_the_grand_narrative
+		}
+		cost = 3
+		x = 8
+		y = 7
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_forging_the_perfect_present
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_lessons_from_countless_cycles
+		}
+		cost = 3
+		x = 8
+		y = 8
+		completion_reward = {
+
+
+		}
+	}
+
+	# 航天探索与星辰大海
+	focus = {
+		id = PRC_space_exploration
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 1
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_deep_space_telescope_network
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_space_exploration
+		}
+		cost = 3
+		x = 1
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_lunar_resource_extraction
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_deep_space_telescope_network
+		}
+		cost = 3
+		x = 1
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_orbital_space_stations
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_lunar_resource_extraction
+		}
+		cost = 3
+		x = 1
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_space_based_solar_power
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_orbital_space_stations
+		}
+		cost = 3
+		x = 1
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_celestial_body_defense_system
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_space_based_solar_power
+		}
+		cost = 3
+		x = 1
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_asteroid_mining_pioneer
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_celestial_body_defense_system
+		}
+		cost = 3
+		x = 1
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_zero_g_manufacturing_hubs
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_asteroid_mining_pioneer
+		}
+		cost = 3
+		x = 1
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_interstellar_probe_development
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_zero_g_manufacturing_hubs
+		}
+		cost = 3
+		x = 1
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_gravity_wave_communication
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_interstellar_probe_development
+		}
+		cost = 3
+		x = 1
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_mars_terraforming_initiation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_gravity_wave_communication
+		}
+		cost = 3
+		x = 1
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_star_charting
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_mars_terraforming_initiation
+		}
+		cost = 3
+		x = 1
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+
+	# 能源革命与可持续发展
+	focus = {
+		id = PRC_energy_revolution
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 3
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_energy_efficiency_optimization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_energy_revolution
+		}
+		cost = 3
+		x = 3
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_carbon_capture_utilization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_energy_efficiency_optimization
+		}
+		cost = 3
+		x = 3
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_sustainable_resource_management
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_carbon_capture_utilization
+		}
+		cost = 3
+		x = 3
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_ecological_restoration_AI
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_sustainable_resource_management
+		}
+		cost = 3
+		x = 3
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_next_gen_battery_storage
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_ecological_restoration_AI
+		}
+		cost = 3
+		x = 3
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_controlled_fusion_reactor_network
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_next_gen_battery_storage
+		}
+		cost = 3
+		x = 3
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_smart_energy_distribution
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_controlled_fusion_reactor_network
+		}
+		cost = 3
+		x = 3
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+
+	# 经济腾飞与共同富裕
+	focus = {
+		id = PRC_economic_prosperity
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 5
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_high_tech_industrial_upgrades
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_economic_prosperity
+		}
+		cost = 3
+		x = 5
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_innovation_fund_expansion
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_high_tech_industrial_upgrades
+		}
+		cost = 3
+		x = 5
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_micro_enterprise_empowerment
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_innovation_fund_expansion
+		}
+		cost = 3
+		x = 5
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_creative_economy_incubation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_micro_enterprise_empowerment
+		}
+		cost = 3
+		x = 5
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_distributed_production_networks
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_creative_economy_incubation
+		}
+		cost = 3
+		x = 5
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_data_economy_valorization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_distributed_production_networks
+		}
+		cost = 3
+		x = 5
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_national_digital_currency
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_data_economy_valorization
+		}
+		cost = 3
+		x = 5
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_AI_driven_market_regulation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_national_digital_currency
+		}
+		cost = 3
+		x = 5
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_quantum_financial_system
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_AI_driven_market_regulation
+		}
+		cost = 3
+		x = 5
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_global_trade_cyber_security
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_quantum_financial_system
+		}
+		cost = 3
+		x = 5
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_strategic_reserve_enhancement
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_global_trade_cyber_security
+		}
+		cost = 3
+		x = 5
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_rural_urban_integration_zones
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_strategic_reserve_enhancement
+		}
+		cost = 3
+		x = 5
+		y = 21
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_future_of_work_initiative
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_rural_urban_integration_zones
+		}
+		cost = 3
+		x = 5
+		y = 22
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_universal_basic_income_pilot
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_future_of_work_initiative
+		}
+		cost = 3
+		x = 5
+		y = 23
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_socialist_market_optimization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_universal_basic_income_pilot
+		}
+		cost = 3
+		x = 5
+		y = 24
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_consumer_happiness_index
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_socialist_market_optimization
+		}
+		cost = 3
+		x = 5
+		y = 25
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_economic_algorithms
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_consumer_happiness_index
+		}
+		cost = 3
+		x = 5
+		y = 26
+		completion_reward = {
+
+
+		}
+	}
+
+	# 社会治理与和谐共生
+	focus = {
+		id = PRC_social_governance
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 7
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_AI_assisted_public_services
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_social_governance
+		}
+		cost = 3
+		x = 7
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_public_safety_augmentation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_AI_assisted_public_services
+		}
+		cost = 3
+		x = 7
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cyber_crime_prevention_unit
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_public_safety_augmentation
+		}
+		cost = 3
+		x = 7
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_smart_city_infrastructure
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cyber_crime_prevention_unit
+		}
+		cost = 3
+		x = 7
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_urban_renewal_projects
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_smart_city_infrastructure
+		}
+		cost = 3
+		x = 7
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_disaster_resilience_network
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_urban_renewal_projects
+		}
+		cost = 3
+		x = 7
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_universal_healthcare_network
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_disaster_resilience_network
+		}
+		cost = 3
+		x = 7
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_personalized_education_systems
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_universal_healthcare_network
+		}
+		cost = 3
+		x = 7
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_youth_development_empowerment
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_personalized_education_systems
+		}
+		cost = 3
+		x = 7
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_elderly_care_innovation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_youth_development_empowerment
+		}
+		cost = 3
+		x = 7
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_mental_well_being_support
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_elderly_care_innovation
+		}
+		cost = 3
+		x = 7
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_community_autonomy_programs
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_mental_well_being_support
+		}
+		cost = 3
+		x = 7
+		y = 21
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_volunteerism_incentives
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_community_autonomy_programs
+		}
+		cost = 3
+		x = 7
+		y = 22
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cultural_exchange_promotion
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_volunteerism_incentives
+		}
+		cost = 3
+		x = 7
+		y = 23
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_digital_democracy_platform
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cultural_exchange_promotion
+		}
+		cost = 3
+		x = 7
+		y = 24
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_perfect_justice_system
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_digital_democracy_platform
+		}
+		cost = 3
+		x = 7
+		y = 25
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_social_harmony
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_perfect_justice_system
+		}
+		cost = 3
+		x = 7
+		y = 26
+		completion_reward = {
+
+
+		}
+	}
+
+	# 台湾统一后的重建与繁荣
+	focus = {
+		id = PRC_taiwan_reconstruction
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 9
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_infrastructure_connectivity
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_taiwan_reconstruction
+		}
+		cost = 3
+		x = 9
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_taiwan_economic_revitalization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_infrastructure_connectivity
+		}
+		cost = 3
+		x = 9
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_regional_development_funds
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_taiwan_economic_revitalization
+		}
+		cost = 3
+		x = 9
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_ecological_restoration_taiwan
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_regional_development_funds
+		}
+		cost = 3
+		x = 9
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cultural_heritage_preservation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_ecological_restoration_taiwan
+		}
+		cost = 3
+		x = 9
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_educational_exchange_deepening
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cultural_heritage_preservation
+		}
+		cost = 3
+		x = 9
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_youth_employment_initiatives
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_educational_exchange_deepening
+		}
+		cost = 3
+		x = 9
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_high_tech_cooperation_zones
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_youth_employment_initiatives
+		}
+		cost = 3
+		x = 9
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cross_strait_integration_plan
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_high_tech_cooperation_zones
+		}
+		cost = 3
+		x = 9
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_perfect_integration_strategy
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cross_strait_integration_plan
+		}
+		cost = 3
+		x = 9
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+
+	# 生物科技与生命探索
+	focus = {
+		id = PRC_biotechnology_advances
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 11
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_food_security_biotech_solutions
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_biotechnology_advances
+		}
+		cost = 3
+		x = 11
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_environmental_bioremediation
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_food_security_biotech_solutions
+		}
+		cost = 3
+		x = 11
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_gene_editing_for_disease
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_environmental_bioremediation
+		}
+		cost = 3
+		x = 11
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_regenerative_medicine_breakthroughs
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_gene_editing_for_disease
+		}
+		cost = 3
+		x = 11
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_personalized_drug_development
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_regenerative_medicine_breakthroughs
+		}
+		cost = 3
+		x = 11
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_synthetic_biology_applications
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_personalized_drug_development
+		}
+		cost = 3
+		x = 11
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_bio_robotics_integration
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_synthetic_biology_applications
+		}
+		cost = 3
+		x = 11
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_aging_reversal_research
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_bio_robotics_integration
+		}
+		cost = 3
+		x = 11
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_neuro_interface_technology
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_aging_reversal_research
+		}
+		cost = 3
+		x = 11
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_consciousness_mapping_project
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_neuro_interface_technology
+		}
+		cost = 3
+		x = 11
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_life_code
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_consciousness_mapping_project
+		}
+		cost = 3
+		x = 11
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_perfect_health_system
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_black_march_life_code
+		}
+		cost = 3
+		x = 11
+		y = 21
+		completion_reward = {
+
+
+		}
+	}
+
+	# 环境保护与生态文明
+	focus = {
+		id = PRC_environmental_protection
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 13
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_sustainable_agriculture_practices
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_environmental_protection
+		}
+		cost = 3
+		x = 13
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_water_resource_management_ai
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_sustainable_agriculture_practices
+		}
+		cost = 3
+		x = 13
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_pollution_free_industrial_parks
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_water_resource_management_ai
+		}
+		cost = 3
+		x = 13
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_air_quality_purification_systems
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_pollution_free_industrial_parks
+		}
+		cost = 3
+		x = 13
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_desertification_reversal_projects
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_air_quality_purification_systems
+		}
+		cost = 3
+		x = 13
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_ocean_plastic_cleanup_tech
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_desertification_reversal_projects
+		}
+		cost = 3
+		x = 13
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_biodiversity_conservation_network
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_ocean_plastic_cleanup_tech
+		}
+		cost = 3
+		x = 13
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_climate_resilience_infrastructure
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_biodiversity_conservation_network
+		}
+		cost = 3
+		x = 13
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_green_energy_adoption_mandate
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_climate_resilience_infrastructure
+		}
+		cost = 3
+		x = 13
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_ecological_civilization_zones
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_green_energy_adoption_mandate
+		}
+		cost = 3
+		x = 13
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_eco_restoration
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_ecological_civilization_zones
+		}
+		cost = 3
+		x = 13
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_perfect_planetary_stewardship
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_black_march_eco_restoration
+		}
+		cost = 3
+		x = 13
+		y = 21
+		completion_reward = {
+
+
+		}
+	}
+
+	# 外交与全球新秩序
+	focus = {
+		id = PRC_global_diplomacy
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_forging_the_perfect_present
+		}
+		cost = 3
+		x = 15
+		y = 9
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_multilateral_cooperation_framework
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_global_diplomacy
+		}
+		cost = 3
+		x = 15
+		y = 10
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_regional_security_dialogues
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_multilateral_cooperation_framework
+		}
+		cost = 3
+		x = 15
+		y = 11
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_conflict_resolution_mechanisms
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_regional_security_dialogues
+		}
+		cost = 3
+		x = 15
+		y = 12
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_peacekeeping_force_modernization
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_conflict_resolution_mechanisms
+		}
+		cost = 3
+		x = 15
+		y = 13
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_humanitarian_aid_network_ai
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_peacekeeping_force_modernization
+		}
+		cost = 3
+		x = 15
+		y = 14
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cultural_diplomacy_expansion
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_humanitarian_aid_network_ai
+		}
+		cost = 3
+		x = 15
+		y = 15
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_international_tech_sharing
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cultural_diplomacy_expansion
+		}
+		cost = 3
+		x = 15
+		y = 16
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_global_climate_action_alliance
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_international_tech_sharing
+		}
+		cost = 3
+		x = 15
+		y = 17
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_global_digital_governance
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_global_climate_action_alliance
+		}
+		cost = 3
+		x = 15
+		y = 18
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_cyber_peace_initiatives
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_global_digital_governance
+		}
+		cost = 3
+		x = 15
+		y = 19
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_disarmament_treaty_promotion
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_cyber_peace_initiatives
+		}
+		cost = 3
+		x = 15
+		y = 20
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_strategic_partnership_deepening
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_disarmament_treaty_promotion
+		}
+		cost = 3
+		x = 15
+		y = 21
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_perfect_global_equilibrium
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_strategic_partnership_deepening
+		}
+		cost = 3
+		x = 15
+		y = 22
+		completion_reward = {
+
+
+		}
+	}
+	focus = {
+		id = PRC_black_march_peace_doctrine
+		icon = GFX_guoce_zhanwei
+		prerequisite = {
+			focus = PRC_perfect_global_equilibrium
+		}
+		cost = 3
+		x = 15
+		y = 23
+		completion_reward = {
+
+
+		}
+	}
+}
