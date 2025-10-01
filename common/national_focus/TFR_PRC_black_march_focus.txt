@@ -1,5 +1,10 @@
 focus_tree = {
-	id = PRC_focus_tree_black_march
+	#id = PRC_focus_tree_black_march
+	id = TFR_tree_eas
+	country = {
+		base = 0
+	}
+	default = no
 
 	# 核心：黑征的引导与人民的福祉
 	focus = {
